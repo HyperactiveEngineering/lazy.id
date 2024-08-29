@@ -1,6 +1,7 @@
 {
   "name": "@lazy/id",
   "version": "1.0.0-beta.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HyperactiveEngineering/lazy.id.git"

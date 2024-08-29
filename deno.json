@@ -1,0 +1,19 @@
+{
+  "name": "@lazy/id",
+  "version": "1.0.0-beta.0",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./drizzle/mysql-core": "./src/drizzle/mysql-core.ts",
+    "./drizzle/pg-core": "./src/drizzle/pg-core.ts",
+    "./drizzle/sqlite-core": "./src/drizzle/sqlite-core.ts"
+  },
+  "publish": {
+    "exclude": [".npmignore", "package*.json", "src/**/*.test.ts"]
+  },
+  "imports": {
+    "drizzle-orm/mysql-core": "npm:drizzle-orm@^0.32.1/mysql-core",
+    "drizzle-orm/pg-core": "npm:drizzle-orm@^0.32.1/pg-core",
+    "drizzle-orm/sqlite-core": "npm:drizzle-orm@^0.32.1/sqlite-core"
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "imports": {
-    "drizzle-orm/mysql-core": "npm:drizzle-orm@^0.32.1/mysql-core",
-    "drizzle-orm/pg-core": "npm:drizzle-orm@^0.32.1/pg-core",
-    "drizzle-orm/sqlite-core": "npm:drizzle-orm@^0.32.1/sqlite-core"
-  }
-}
