@@ -12,6 +12,7 @@
 	"publish": {
 		"exclude": [
 			".npmignore",
+			"package*.json",
 			"src/**/*.test.ts"
 		]
 	}

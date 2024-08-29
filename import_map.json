@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "drizzle-orm": "npm:drizzle-orm@^0.32.1"
+  }
+}
