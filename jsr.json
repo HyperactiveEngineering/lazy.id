@@ -1,0 +1,20 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "name": "@lazy/id",
+  "version": "1.0.0-beta.0",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./drizzle/mysql-core": "./src/drizzle/mysql-core.ts",
+    "./drizzle/pg-core": "./src/drizzle/pg-core.ts",
+    "./drizzle/sqlite-core": "./src/drizzle/sqlite-core.ts"
+  },
+	"publish": {
+		"exclude": [
+			".npmignore",
+			"package*.json",
+			"src/**/*.test.ts",
+			"tsconfig.json"
+		]
+	}
+}
