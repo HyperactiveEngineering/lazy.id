@@ -24,6 +24,9 @@
       "default": "./lib/drizzle/sqlite-core.js"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "test": "vitest"
