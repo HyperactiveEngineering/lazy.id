@@ -13,8 +13,7 @@
 		"exclude": [
 			".npmignore",
 			"package*.json",
-			"src/**/*.test.ts",
-			"tsconfig.json"
+			"src/**/*.test.ts"
 		]
 	}
 }
